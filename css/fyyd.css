@@ -1,0 +1,119 @@
+.container-fyyd-fluid,
+.container-fyyd {
+	padding:2rem !important;
+}
+
+.container-fyyd-fluid {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container-fyyd img {
+	border: 0px !important;
+	box-shadow: none !important;
+}
+
+.container-fyyd a {
+	border: 0px !important;
+	box-shadow: none !important;
+}
+
+.fyyd-comment {
+	margin-left: 5%;width: 95%;
+	border: 0px !important;
+	box-shadow: none !important;
+}
+
+.fyyd-comment-post {
+	font-size:0.85rem;border: 0px !important;
+	box-shadow: none !important;
+}
+
+.fyyd-comment-author {
+	text-decoration:none !important;
+	font-weight: bold;
+	border: 0px !important;
+	box-shadow: none !important;
+}
+
+.fyyd-comment-author > a {
+	text-decoration:none !important;
+	font-weight: bold;
+}
+
+.fyyd-error-message::before {
+	content: 'error: ';
+}
+
+.fyyd-error-message {
+	
+	padding:1em;
+	background-color:#f33;
+	color:white;
+	
+	
+}
+
+.fyyd-svg {
+	color: #008000;
+	background-color: #008000;
+}
+.row-fyyd {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+}
+
+.fyyd-text {
+	mix-blend-mode: luminosity;
+}
+
+a svg {
+  display: inline-block;
+   vertical-align: middle;
+}
+
+.row-fyyd.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.fyyd-truncate {
+  overflow: hidden;
+  position: relative; 
+  line-height: 1.2em;
+  max-height: 3.6em; 
+  text-align: justify;  
+  margin-right: -1em;
+  padding-right: 1em;
+}
+
+.fyyd-truncate:before {
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.fyyd-truncate:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
